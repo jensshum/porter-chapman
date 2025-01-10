@@ -16,7 +16,7 @@ function App() {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center">
         <img 
-          src="https://images.unsplash.com/photo-1629752187687-3d3c7ea3a21b?auto=format&fit=crop&q=80&w=1200"
+          src={PorterDrummer}
           alt="Loading"
           className="w-screen h-screen object-cover"
         />
@@ -26,40 +26,36 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
-      {/* Square drummer image */}
-      <div className="w-[500px] h-[500px] relative mb-8">
-        <img 
-          src={PorterDrummer} 
-          alt="Drummer"
-          className="w-full h-full object-cover"
-        />
-      </div>
+      {/* Title */}
+      <h1 className="text-white text-6xl mb-12 tracking-widest">
+        PORTER CHAPMAN
+      </h1>
 
-      {/* Horizontal navigation menu */}
-      <nav className="bg-black bg-opacity-95 px-8 py-4 w-[500px]">
-        <ul className="flex justify-between items-center">
+      {/* Vertical navigation menu */}
+      <nav className="bg-black bg-opacity-95 px-8 py-4">
+        <ul className="flex flex-col space-y-6">
           <li>
-            <a href="#" className="text-white hover:text-red-500 transition-colors duration-200 text-sm tracking-widest">
+            <a href="#" className="text-white hover:text-red-500 hover:translate-x-2 inline-block transition-all duration-200 text-lg tracking-widest capitalize">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-red-500 transition-colors duration-200 text-sm tracking-widest">
+            <a href="#" className="text-white hover:text-red-500 hover:translate-x-2 inline-block transition-all duration-200 text-lg tracking-widest capitalize">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-red-500 transition-colors duration-200 text-sm tracking-widest">
+            <a href="#" className="text-white hover:text-red-500 hover:translate-x-2 inline-block transition-all duration-200 text-lg tracking-widest capitalize">
               Collaborate
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-red-500 transition-colors duration-200 text-sm tracking-widest">
+            <a href="#" className="text-white hover:text-red-500 hover:translate-x-2 inline-block transition-all duration-200 text-lg tracking-widest capitalize">
               Socials
             </a>
           </li>
           <li>
-            <a href="#" className="text-white hover:text-red-500 transition-colors duration-200 text-sm tracking-widest">
+            <a href="#" className="text-white hover:text-red-500 hover:translate-x-2 inline-block transition-all duration-200 text-lg tracking-widest capitalize">
               Gallery
             </a>
           </li>

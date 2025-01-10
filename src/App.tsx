@@ -29,6 +29,9 @@ function App() {
     <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
       {/* Title */}
       <img src="https://web.archive.org/web/20091026115428/http://geocities.com/cannabis_corner420/images/420clock.gif"></img>
+      <img src="https://web.archive.org/web/20090808102404/http://www.geocities.com/freerusty/drugsenseorgwodclockhtm.gif"></img>
+      <img src="https://web.archive.org/web/20090808092914/http://www.geocities.com/for_real_grrl2000/kittyclock.gif"></img>
+      <img src="https://web.archive.org/web/20090831090234/http://www.geocities.com/ezr4k/clockrun.gif"></img>
 
       <h1 className="text-white text-4xl mb-12 tracking-widest">
         PORTER CHAPMAN

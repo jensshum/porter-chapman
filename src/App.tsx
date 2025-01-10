@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
       {/* Title */}
-      <h1 className="text-white text-6xl mb-12 tracking-widest">
+      <h1 className="text-white text-4xl mb-12 tracking-widest">
         PORTER CHAPMAN
       </h1>
 
